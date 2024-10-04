@@ -20,8 +20,6 @@ highlighter: shiki
 
 # What We'll Be Doing Today
 
-<v-clicks>
-
 | Step | Description                                |
 | ---- | ------------------------------------------ |
 | 1    | Setting up our development environment     |
@@ -29,9 +27,7 @@ highlighter: shiki
 | 3    | Implementing the design with AI assistance |
 | 4    | Deploying our app to the internet          |
 
-</v-clicks>
-
-<h2 class="mt-12 font-bold">Let's get started!</h2>
+<h2 class="mt-3font-bold">Let's get started!</h2>
 
 ---
 
