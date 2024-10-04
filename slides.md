@@ -320,8 +320,7 @@ You've just built and deployed an AI-generated web app!
 
 <div class="pt-6">
   <p>Follow me for more tutorials:</p>
-  <p>Twitter: @jasonchannn</p>
-  <p>GitHub: @jasonchannn</p>
+  <p>@thetechjason</p>
 </div>
 
 <div class="qr-code"></div>
