@@ -1,15 +1,10 @@
-# Slidev Theme Geist
-
 The [Vercel](https://vercel.com) theme for [Slidev](https://github.com/slidevjs/slidev). Based on [Vercel's design system](https://vercel.com/design)
 
-[Demo](https://slidev-theme-geist-demo.vercel.app) | [Documentation](https://slidev-theme-geist-docs.vercel.app) | [Contribution Guide](CONTRIBUTING.md)
+# Contributing
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-geist)](https://www.npmjs.com/package/slidev-theme-geist)
-
-## Screenshots
-
-![Slide demo with cover page](/example-export/01.png)
-![Slide demo with list](/example-export/02.png)
-![Slide demo with table](/example-export/03.png)
-![Slide demo with code](/example-export/04.png)
-![Slide demo with geist components](/example-export/05.png)
+1. `npm install`
+2. `npm run dev` to start the theme preview of `slides.md`
+3. Open `localhost:3030` to see the live demo
+4. Edit `slides.md` and style to see changes
+5. `npm run export` to generate the preview PDF
+6. `npm run screenshot` to generate the preview PNG

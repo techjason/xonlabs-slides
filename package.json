@@ -32,10 +32,10 @@
         }
     },
     "scripts": {
-        "dev": "slidev example.md",
-        "build": "slidev build example.md",
-        "export": "slidev export example.md",
-        "screenshot": "slidev export example.md --format png",
+        "dev": "slidev slides.md",
+        "build": "slidev build slides.md",
+        "export": "slidev export slides.md",
+        "screenshot": "slidev export slides.md --format png",
         "docs:dev": "vitepress dev docs",
         "docs:build": "vitepress build docs",
         "format": "prettier --write components/*.vue layouts/* styles.css",
