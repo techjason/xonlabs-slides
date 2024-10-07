@@ -3,10 +3,12 @@ theme: ./
 highlighter: shiki
 ---
 
-# How to Build a <span class="gradient-text">$1 Million AI App</span>With <span class="orange-gradient-text"> _No Coding Background_</span>
+<div class="relative z-10">
+    <h1>How to Build a <span class="gradient-text">$1 Million AI App</span> With <span class="orange-gradient-text"> <em>No Coding Background</em></span></h1>
+</div>
 
 <div class="qr-code"></div>
-<div class="flex items-center justify-between">
+<div class="flex items-center justify-between relative z-10">
   <div class="flex-1">
     <p class="font-bold">Jason Chan</p>
     <p>Co-founder of memo.cards (Previously PDF2Anki)<br />Third Year Medical Student, LKS Faculty of Medicine, HKU<br />InnoTech HSBC Scholar<br />Cyberport Incubatee<br />Builder and AI Engineer</p>
@@ -14,30 +16,60 @@ highlighter: shiki
   <img src="/avatar.png" alt="Jason Chan" class="w-36 h-36 rounded-full ml-4">
 </div>
 
-<div class="pt-6">
+<div class=" relative z-10">
   Press <KBD>space</KBD> to go to the next page ->
 </div>
 
+<div class="w-[800px] h-[800px] mx-auto absolute top-0 left-0 right-0 z-0">
+  <Globe />
+</div>
+
+<Counter />
+
+---
+
+<div class="center-xy">
+  <h1 class="text-8xl text-center ">hello everyone</h1>
+</div>
+---
+
+<div class="center-xy">
+  <h1 class=" text-8xl text-center">and welcome to my workshop</h1>
+</div>
+---
+
+<div class="center-xy text-center">
+   <h1>How to Build a <span class="gradient-text">$1 Million AI App</span> With <span class="orange-gradient-text"> <em>No Coding Background</em></span></h1>
+</div>
+---
+
+<div class="w-full h-full">
+  <img src="/sus.webp"  alt="Suspicious" class="h-full w-full object-cover" />
+</div>
+
+---
+
+<div class="center-xy text-center">
+   <h1>you are going to learn <span class="gradient-text">a lot of things</span> today</h1>
+</div>
 ---
 
 <div class="center-xy">
   <h1 class="gradient-text text-10xl text-center ">Who Am I?</h1>
 </div>
 ---
-<div class="center-xy">
-  <h1 class="text-8xl text-center ">hello everyone</h1>
-</div>
----
 
 <div class="center-xy">
-  <h1 class="text-8xl text-center ">hello everyone</h1>
-</div>
----
-
-<div class="center-xy">
-  <h1 class="text-8xl text-center ">my name is jason</h1>
+  <h1 class="text-8xl text-center ">my name is <span class="gradient-text">jason chan</span></h1>
   <p class="text-center text-gray-500">@thetechjason</p>
 </div>
+---
+
+<div class="">
+  <img src="/handstand.jpg"  alt="Full screen image" class="w-full h-full object-cover" />
+  21 year old founder based in hk.
+</div>
+
 ---
 
 # What We'll Be Doing Today
@@ -49,7 +81,7 @@ highlighter: shiki
 | 3    | Implementing the design with AI assistance |
 | 4    | Deploying our app to the internet          |
 
-<h2 class="mt-3font-bold">Let's get started!</h2>
+<h2 class="mt-3 font-bold">Let's get started!</h2>
 
 ---
 
