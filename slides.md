@@ -26,6 +26,10 @@ highlighter: shiki
 
 <Counter />
 
+<div class="absolute bottom-0 right-0 ">
+<FlappyBirdHome />
+</div>
+
 ---
 
 <div class="center-xy">
@@ -52,6 +56,36 @@ highlighter: shiki
 <div class="center-xy text-center">
    <h1>you are going to learn <span class="gradient-text">a lot of things</span> today</h1>
 </div>
+---
+
+<div class="w-full h-full flex items-center justify-center mt-10">
+  <img src="/bento.png" alt="Bento grid" class="w-full h-auto object-cover rounded-xl" />
+</div>
+
+---
+
+<div class="center-xy text-center">
+   <h1>today it is going to be <span class="gradient-text">beginner</span> friendly</h1>
+   <h2>yet we will be pushing the boundaries of what is possible with ai into some advanced concepts</h2>
+</div>
+---
+
+<div class="w-full h-full flex items-center justify-center">
+  <img src="/cat.gif" alt="Cat having fun" class="w-full h-auto object-cover rounded-xl" />
+</div>
+
+---
+
+<div class="justify-center">
+  <h1 class="text-8xl text-right text-red-500">Stop</h1>
+  <h1 class="text-right">Join Slido ↓</h1>
+</div>
+
+<div class="absolute top-0 left-0 ">
+<FlappyBird />
+</div>
+<Counter />
+
 ---
 
 <div class="center-xy">
