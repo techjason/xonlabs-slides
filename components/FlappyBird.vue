@@ -55,8 +55,8 @@ const update = () => {
         endGame();
     }
 
-    // Increase the distance between pipes even more
-    if (pipes.length === 0 || pipes[pipes.length - 1].x < 100) {
+    // Increase the distance between pipes
+    if (pipes.length === 0 || pipes[pipes.length - 1].x < 300) {
         pipes.push({
             x: 400,
             topHeight: Math.random() * 150 + 50,
@@ -64,7 +64,7 @@ const update = () => {
     }
 
     pipes.forEach((pipe) => {
-        // Pipe movement speed remains the same
+        // Slow down pipe movement
         pipe.x -= 1.5;
 
         if (pipe.x + 50 < 0) {

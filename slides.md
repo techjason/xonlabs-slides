@@ -78,7 +78,7 @@ highlighter: shiki
 
 <div class="justify-center">
   <h1 class="text-8xl text-right text-red-500">Stop</h1>
-  <h1 class="text-right">Join Slido ↓</h1>
+  <h1 class="text-right">Join Menti ↓</h1>
 </div>
 
 <div class="absolute top-0 left-0 ">
@@ -119,7 +119,7 @@ highlighter: shiki
 
 ---
 
-# Step 1: Install a VPN
+# Install a <span class="gradient-text">VPN</span>
 
 | For Chrome **(Recommended)**                        | For macOS                                                 | For Windows                                                |
 | --------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------- |
@@ -129,7 +129,267 @@ highlighter: shiki
 | 4. Click "Add extension" in the popup               | 4. Drag ProtonVPN into the Applications folder            | 4. Follow the installation wizard                          |
 | 5. Click the VeePN icon in Chrome to set up and use | 5. Open ProtonVPN from Applications and set up an account | 5. Open ProtonVPN after installation and set up an account |
 
+<Note>A VPN will help ensure the AI models we are using as well as Bolt works properly (from Hong Kong)</Note>
+
+---
+
+# Go to <span class="gradient-text">www.bolt.new</span> and select <span class="orange-gradient-text">Next.js</span>
+
+<div class="w-full h-full flex flex-col  items-center">
+  <img src="/steps/step1.png"  alt="home screen of bolt.new with an arrow pointing to the next button" class="h-[500px]" />
+</div>
+
 <Note>A VPN will help ensure the AI models we are using as well as Bolt works properly</Note>
+
+---
+
+<div class="w-full h-full flex flex-row justify-between items-start" >
+  <div>
+    <img src="/steps/step2.png"  alt="folder structure of a next.js app" class="w-[500px]" />
+  </div>
+<!-- table here -->
+<div class="ml-4">
+    <table class="border-collapse border border-gray-300">
+      <thead>
+        <tr>
+          <th class="border border-gray-300 px-4 py-2">File/Folder</th>
+          <th class="border border-gray-300 px-4 py-2">Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-gray-300 px-4 py-2"><code>app</code></td>
+          <td class="border border-gray-300 px-4 py-2">Main folder for your app's pages</td>
+        </tr>
+         <tr>
+          <td class="border border-gray-300 px-4 py-2"><code>globals.css</code></td>
+          <td class="border border-gray-300 px-4 py-2">Global CSS styles for the entire application</td>
+        </tr>
+        <tr>
+          <td class="border border-gray-300 px-4 py-2"><code>layout.tsx</code></td>
+          <td class="border border-gray-300 px-4 py-2">Root layout component for the app</td>
+        </tr>
+        <tr>
+          <td class="border border-gray-300 px-4 py-2"><code>page.tsx</code></td>
+          <td class="border border-gray-300 px-4 py-2">Main page component for the root route</td>
+        </tr>
+        <tr>
+          <td class="border border-gray-300 px-4 py-2"><code>components</code></td>
+          <td class="border border-gray-300 px-4 py-2">Folder for reusable React components</td>
+        </tr>
+        <tr>
+          <td class="border border-gray-300 px-4 py-2"><code>hooks</code></td>
+          <td class="border border-gray-300 px-4 py-2">Contains a custom toast hook</td>
+        </tr>
+        <tr>
+          <td class="border border-gray-300 px-4 py-2"><code>package.json</code></td>
+          <td class="border border-gray-300 px-4 py-2">Project dependencies and scripts</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<Note>A VPN will help ensure the AI models we are using as well as Bolt works properly</Note>
+
+---
+
+# Understanding <span class="orange-gradient-text">page.tsx</span> in Next.js
+
+<div class="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
+  <div class="text-lg space-y-2 md:w-1/2">
+    <p>Think of <code>page.tsx</code> as the blueprint for your website's main page:</p>
+    <ul class="list-disc list-inside space-y-2">
+      <li>It's like the "welcome mat" of your website</li>
+      <li>It decides what visitors see when they first arrive</li>
+      <li>You can easily change what it shows, like updating a sign</li>
+    </ul>
+     <Note>Don't worry about the technical stuff yet - we'll use AI to help us work with it!</Note>
+  </div>
+
+  <div class="md:w-1/2">
+    <img src="/welcomeSign.jpg" alt="Welcome sign" class="w-full h-auto rounded-lg shadow-lg" />
+  </div>
+
+</div>
+
+---
+
+```typescript
+export default function Home() {
+    return (
+        <div className="mt-5 ml-5 text-lg">Hello World! We are at HKU now!</div>
+    );
+}
+```
+
+| Code Element                      | Description                            |
+| --------------------------------- | -------------------------------------- |
+| `function Home()`                 | This is like a recipe for your page    |
+| `return (...)`                    | This is what your page will show       |
+| `<div>...</div>`                  | This is a container for your content   |
+| `className="..."`                 | This adds styling to make it look nice |
+| `Hello World! We are at HKU now!` | This is the actual text on your page   |
+
+---
+
+# <span class="gradient-text">JavaScript</span> & <span class="orange-gradient-text">React</span> in a Nutshell
+
+<div class=" space-y-6">
+  <p><strong>JavaScript:</strong> The language that makes websites <strong>interactive</strong></p>
+  <ul class="list-disc list-inside space-y-2">
+    <li>Allows you to add <strong>behavior</strong> to your web pages</li>
+    <li>Can <strong>respond</strong> to user actions (like clicks or typing)</li>
+    <li>Can <strong>update</strong> the page without reloading</li>
+  </ul>
+
+  <p><strong>React:</strong> A popular JavaScript <strong>library</strong> for building user interfaces</p>
+  <ul class="list-disc list-inside space-y-2">
+    <li>Helps organize your code into <strong>reusable components</strong></li>
+    <li>Makes it easier to build <strong>complex, interactive websites</strong></li>
+    <li>Used by many <strong>big companies</strong> like Facebook and Instagram</li>
+  </ul>
+</div>
+
+---
+
+# <span class="gradient-text">HTML</span> in a Nutshell
+
+<div class="space-y-6 mb-4">
+  <p><strong>HTML:</strong> The structure and content of web pages</p>
+  <ul class="list-disc list-inside space-y-2">
+    <li>Defines the <strong>basic building blocks</strong> of web pages</li>
+    <li>Uses <strong>"tags"</strong> to <strong>mark up</strong> different types of content</li>
+    <li>Examples: <strong>&lt;h1&gt;</strong> for headings, <strong>&lt;p&gt;</strong> for paragraphs, <strong>&lt;img&gt;</strong> for images</li>
+  </ul>
+
+</div>
+
+```html
+<h1>Welcome to My Website</h1>
+<p>This is a paragraph of text.</p>
+<img src="picture.jpg" alt="A beautiful landscape" />
+```
+
+<Note>HTML is like the skeleton of your website - it gives it structure!</Note>
+
+---
+
+# <span class="gradient-text">Tailwind CSS</span> in a Nutshell
+
+<div class="space-y-6 mb-6">
+  <p><strong>Tailwind CSS:</strong> A tool for <strong>quickly styling</strong> your web pages</p>
+  <ul class="list-disc list-inside space-y-2">
+    <li>Provides <strong>pre-made classes</strong> for common styles</li>
+    <li>Allows you to design <strong>without writing custom CSS</strong></li>
+    <li>Makes it easy to create <strong>responsive</strong>, <strong>good-looking websites</strong></li>
+  </ul>
+
+</div>
+
+```html
+<div class="bg-gray-100 p-4 rounded-md">
+    <p class="font-bold">Tailwind CSS Example:</p>
+    <div class="bg-blue-500 text-white p-4 rounded-lg shadow-md">
+        This is a styled box using Tailwind CSS classes
+    </div>
+</div>
+```
+
+<Note>Think of Tailwind as a big box of Lego pieces for styling your website!</Note>
+
+---
+
+# A React Functional Component
+
+<div class="space-y-2">
+  <p>Let's create a simple component called <code>Greeting</code>:</p>
+</div>
+
+```jsx
+function Greeting() {
+  return (
+
+  );
+}
+
+export default Greeting;
+```
+
+<div class="">
+  <p>This is the basic structure of a React component:</p>
+  <ul class="list-disc list-inside ">
+    <li>It's a function</li>
+    <li>It returns something (which will be our content)</li>
+    <li>We export it so other parts of our app can use it</li>
+  </ul>
+</div>
+
+<Note>Think of this as creating an empty box that we'll fill with content!</Note>
+
+---
+
+```jsx
+function Greeting() {
+    return (
+        <div>
+            <h1>Welcome to My App!</h1>
+            <p>This is a simple greeting component.</p>
+            <button>Click me!</button>
+        </div>
+    );
+}
+
+export default Greeting;
+```
+
+<div class="">
+  <p>We've added:</p>
+  <ul class="list-disc list-inside">
+    <li>A container <code>&lt;div&gt;</code></li>
+    <li>A heading with <code>&lt;h1&gt;</code></li>
+    <li>A paragraph with <code>&lt;p&gt;</code></li>
+    <li>A button with <code>&lt;button&gt;</code></li>
+  </ul>
+</div>
+
+<Note>This JSX looks like HTML, but it's actually JavaScript!</Note>
+
+---
+
+```jsx
+function Greeting() {
+    return (
+        <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md">
+            <h1 className="text-2xl font-bold text-blue-600 mb-2">
+                Welcome to My App!
+            </h1>
+            <p className="text-gray-600 mb-4">
+                This is a simple greeting component.
+            </p>
+            <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+                Click me!
+            </button>
+        </div>
+    );
+}
+
+export default Greeting;
+```
+
+ <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md">
+            <h1 className="text-2xl font-bold text-blue-600 mb-2">
+                Welcome to My App!
+            </h1>
+            <p className="text-gray-600 mb-4">
+                This is a simple greeting component.
+            </p>
+            <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+                Click me!
+            </button>
+        </div>
+
+<Note>Tailwind makes styling easy - just add classes to your elements!</Note>
 
 ---
 
@@ -163,3 +423,4 @@ You've just built and deployed an AI-generated web app!
 </div>
 
 <div class="qr-code"></div>
+```
