@@ -43,6 +43,7 @@
     },
     "dependencies": {
         "@slidev/types": "^0.28.9",
+        "cobe": "^0.6.3",
         "codemirror-theme-vars": "^0.1.1",
         "prism-theme-vars": "^0.2.2"
     },
