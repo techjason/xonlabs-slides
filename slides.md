@@ -393,6 +393,28 @@ export default Greeting;
 
 ---
 
+```typescript
+export default function Home() {
+    return (
+        <div className="mt-5 ml-5 text-lg">Hello World! We are at HKU now!</div>
+    );
+}
+```
+
+---
+
+```typescript
+export default function Home() {
+    return (
+        <div className="mt-5 ml-5 text-lg">Hello World! We are at HKU now!</div>
+    );
+}
+```
+
+<img src="/steps/padding.png" alt="image showing padding of 5 between the text and the edge of the screen" class="w-full h-auto rounded-xl" />
+
+---
+
 # Congratulations!
 
 You've just built and deployed an AI-generated web app!
