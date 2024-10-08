@@ -190,7 +190,15 @@ highlighter: shiki
   </div>
 </div>
 
-<Note>A VPN will help ensure the AI models we are using as well as Bolt works properly</Note>
+---
+
+<div class="center-xy">
+  <h1 class=" text-center ">Hold up! I know this looks super overwhelming and scary</h1>
+    <h3 v-click>... and it certainly was when I first got started</h3>
+    <h3 v-click>... however, just like building muscle memory, the more you do it, the easier it gets</h3>
+    <h3 v-click>so don't worry if you don't understand everything!</h3>
+    <h3 v-click>just focus on having fun and getting hands on with ai-powered coding</h3>
+</div>
 
 ---
 
@@ -198,13 +206,15 @@ highlighter: shiki
 
 <div class="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
   <div class="text-lg space-y-2 md:w-1/2">
+  <v-cl
     <p>Think of <code>page.tsx</code> as the blueprint for your website's main page:</p>
     <ul class="list-disc list-inside space-y-2">
       <li>It's like the "welcome mat" of your website</li>
       <li>It decides what visitors see when they first arrive</li>
       <li>You can easily change what it shows, like updating a sign</li>
-    </ul>
+      </ul>
      <Note>Don't worry about the technical stuff yet - we'll use AI to help us work with it!</Note>
+
   </div>
 
   <div class="md:w-1/2">
