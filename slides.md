@@ -58,7 +58,7 @@ highlighter: shiki
 </div>
 ---
 
-<div class="w-full h-full flex items-center justify-center mt-10">
+<div class="w-full h-full flex items-center justify-center ">
   <img src="/bento.png" alt="Bento grid" class="w-full h-auto object-cover rounded-xl" />
 </div>
 
@@ -206,21 +206,18 @@ highlighter: shiki
 
 <div class="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
   <div class="text-lg space-y-2 md:w-1/2">
-  <v-cl
     <p>Think of <code>page.tsx</code> as the blueprint for your website's main page:</p>
     <ul class="list-disc list-inside space-y-2">
       <li>It's like the "welcome mat" of your website</li>
       <li>It decides what visitors see when they first arrive</li>
       <li>You can easily change what it shows, like updating a sign</li>
-      </ul>
-     <Note>Don't worry about the technical stuff yet - we'll use AI to help us work with it!</Note>
-
+    </ul>
+    <Note>Don't worry about the technical stuff yet - we'll use AI to help us work with it!</Note>
   </div>
 
   <div class="md:w-1/2">
     <img src="/welcomeSign.jpg" alt="Welcome sign" class="w-full h-auto rounded-lg shadow-lg" />
   </div>
-
 </div>
 
 ---
@@ -425,34 +422,176 @@ export default function Home() {
 
 ---
 
-# Congratulations!
+# Install Dependencies
 
-You've just built and deployed an AI-generated web app!
+In the Bolt.new terminal, run:
 
--   Your app is now live at the URL provided by Vercel
--   You can continue to make changes and push to GitHub
--   Vercel will automatically update your live site
+```bash
+npm install @blocknote/react @blocknote/mantine @blocknote/core
+```
 
-<div class="pt-6">
-  <p class="font-bold">Next Steps:</p>
-  <p>1. Customize your app further</p>
-  <p>2. Learn more about React and Next.js</p>
-  <p>3. Explore more AI tools for development</p>
+<img src="/steps/npmInstall.png" alt="Terminal output of npm install @blocknote/react @blocknote/mantine @blocknote/core" class="w-full h-auto rounded-lg shadow-md" />
+<Note>This installs the necessary BlockNote packages</Note>
+
+---
+
+# Create Editor Component
+
+<p>Type in the following into the Bolt.new AI console: (make sure your VPN is on)</p>
+
+<code>
+Create an empty Editor component inside the components folder. DO not add any packages or modify package.json. Just add a placeholder text.
+</code>
+
+<img src="/steps/console.png" alt="Terminal output of creating Editor component" class="w-full h-auto rounded-lg shadow-md" />
+
+<Note>React components can be reused across different pages</Note>
+
+---
+
+Select all and replace `components/Editor.tsx`
+
+<div style="height: 400px; overflow-y: auto;">
+
+```typescript {all|9-11|12-19|20-70}
+"use client"; // This registers <Editor> as a Client Component
+
+import { Block, BlockNoteEditor, PartialBlock } from "@blocknote/core";
+import "@blocknote/core/fonts/inter.css";
+import { BlockNoteView } from "@blocknote/mantine";
+import "@blocknote/mantine/style.css";
+import { useEffect, useMemo, useState } from "react";
+
+async function saveToStorage(jsonBlocks: Block[]) {
+    localStorage.setItem("editorContent", JSON.stringify(jsonBlocks));
+}
+
+async function loadFromStorage() {
+    // Gets the previously stored editor contents.
+    const storageString = localStorage.getItem("editorContent");
+    return storageString
+        ? (JSON.parse(storageString) as PartialBlock[])
+        : undefined;
+}
+
+export default function Editor() {
+    const [initialContent, setInitialContent] = useState<
+        PartialBlock[] | undefined | "loading"
+    >("loading");
+
+    // Loads the previously stored editor contents.
+    useEffect(() => {
+        loadFromStorage().then((content) => {
+            setInitialContent(content);
+        });
+    }, []);
+
+    // Creates a new editor instance.
+    // We use useMemo + createBlockNoteEditor instead of useCreateBlockNote so we
+    // can delay the creation of the editor until the initial content is loaded.
+    const editor = useMemo(() => {
+        if (initialContent === "loading") {
+            return undefined;
+        }
+        return BlockNoteEditor.create({ initialContent });
+    }, [initialContent]);
+
+    if (editor === undefined) {
+        return "Loading content...";
+    }
+
+    // Renders the editor instance.
+    return (
+        <BlockNoteView
+            editor={editor}
+            theme="light"
+            onChange={() => {
+                saveToStorage(editor.document);
+            }}
+        />
+    );
+}
+```
+
+</div>
+
+<Note>This component will render our Notion-style editor</Note>
+
+---
+
+# Update page.tsx
+
+Now, let's update our `app/page.tsx` file:
+
+```typescript {all|1|3|5-12}
+import dynamic from "next/dynamic";
+
+const Editor = dynamic(() => import("../components/Editor"), { ssr: false });
+
+export default function Home() {
+    return (
+        <div className="p-5">
+            <h1 className="text-2xl font-bold mb-4">Jason Notion App</h1>
+            <Editor />
+        </div>
+    );
+}
+```
+
+<Note>We use dynamic import to ensure BlockNote only loads on the client-side</Note>
+
+---
+
+# Run Your App
+
+If your app has not been running, in the Bolt.new terminal, run:
+
+```bash
+npm run dev
+```
+
+<Note>Congratulations! You've just integrated a complex library into your Next.js app!</Note>
+
+---
+
+# Deploy Your App
+
+Press the big <span class="gradient-text">Deploy</span> button in the top right corner of the screen.
+
+<img src="/steps/deploy.png" alt="Terminal output of deploying app" class="w-full h-auto rounded-lg shadow-md" />
+
+---
+
+<div class="center-xy">
+  <h1 class=" text-center ">Congratulations!</h1>
+    <h3 v-click>You've just built and deployed an AI-generated web app!</h3>
+    <h3 v-click> Your app is now live at Netlify</h3>
+    <h3 v-click>Register a Netlify account to ensure your website stays up after 2 weeks</h3>
+</div>
+
+---
+
+<div class="center-xy">
+  <h1 class="text-center">Next steps</h1>
+    <h3 v-click>Learn to use a dedicated IDE like Cursor for enhanced AI-powered coding</h3>
+    <h3 v-click>Master Git and GitHub for version control and collaboration</h3>
+    <h3 v-click>Explore hosting your projects with Vercel for seamless deployment</h3>
+    <h3 v-click>Keep building, learning, and growing as a builder!</h3>
 </div>
 
 ---
 
 # Thank You!
 
-<div class="">
+<div class="relative z-10 mt-32">
   <p class="font-bold">Jason Chan</p>
-  <p>Co-founder of memo.cards (Previously PDF2Anki)<br />Third Year Medical Student, LKS Faculty of Medicine, HKU<br />InnoTech HSBC Scholar<br />Cyberport Incubatee<br />Builder and AI Engineer</p>
-</div>
-
-<div class="pt-6">
-  <p>Follow me for more tutorials:</p>
-  <p>@thetechjason</p>
+  <p>If you're interested in building for apps like this, we are currently hiring for full time, part time and internships at <a href="https://www.memo.cards">memo.cards</a>. More info at <a href="https://www.thelearningcompany.com/careers">thelearningcompany.com/careers</a></p>
+  <p>I'm at most of the socials with: @thetechjason</p>
+  <p><a href="https://techjason.com">techjason.com</a></p>
 </div>
 
 <div class="qr-code"></div>
-```
+
+<div class="w-[800px] h-[800px] mx-auto absolute top-0 left-0 right-0 z-0">
+  <Globe />
+</div>
