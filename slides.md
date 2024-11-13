@@ -35,32 +35,38 @@ highlighter: shiki
 <div class="center-xy">
   <h1 class="text-8xl text-center ">hello everyone</h1>
 </div>
+<div class="qr-code"></div>
 ---
 
 <div class="center-xy">
   <h1 class=" text-8xl text-center">and welcome to my workshop</h1>
 </div>
+<div class="qr-code"></div>
 ---
 
 <div class="center-xy text-center">
    <h1>How to Build a <span class="gradient-text">$1 Million AI App</span> With <span class="orange-gradient-text"> <em>No Coding Background</em></span></h1>
 </div>
+<div class="qr-code"></div>
 ---
 
 <div class="w-full h-full">
   <img src="/sus.webp"  alt="Suspicious" class="h-full w-full object-cover" />
 </div>
+<div class="qr-code"></div>
 
 ---
 
 <div class="center-xy text-center">
    <h1>you are going to learn <span class="gradient-text">a lot of things</span> today</h1>
 </div>
+<div class="qr-code"></div>
 ---
 
 <div class="w-full h-full flex items-center justify-center ">
   <img src="/bento.png" alt="Bento grid" class="w-full h-auto object-cover rounded-xl" />
 </div>
+<div class="qr-code"></div>
 
 ---
 
@@ -68,11 +74,13 @@ highlighter: shiki
    <h1>today it is going to be <span class="gradient-text">beginner</span> friendly</h1>
    <h2>yet we will be pushing the boundaries of what is possible with ai into some advanced concepts</h2>
 </div>
+<div class="qr-code"></div>
 ---
 
 <div class="w-full h-full flex items-center justify-center">
   <img src="/cat.gif" alt="Cat having fun" class="w-full h-auto object-cover rounded-xl" />
 </div>
+<div class="qr-code"></div>
 
 ---
 
@@ -85,24 +93,28 @@ highlighter: shiki
 <FlappyBird />
 </div>
 <Counter />
+<div class="qr-code"></div>
 
 ---
 
 <div class="center-xy">
   <h1 class="gradient-text text-10xl text-center ">Who Am I?</h1>
 </div>
+<div class="qr-code"></div>
 ---
 
 <div class="center-xy">
   <h1 class="text-8xl text-center ">my name is <span class="gradient-text">jason chan</span></h1>
   <p class="text-center text-gray-500">@thetechjason</p>
 </div>
+<div class="qr-code"></div>
 ---
 
 <div class="">
   <img src="/handstand.jpg"  alt="Full screen image" class="w-full h-full object-cover" />
   21 year old founder based in hk.
 </div>
+<div class="qr-code"></div>
 
 ---
 
@@ -117,6 +129,8 @@ highlighter: shiki
 
 <h2 class="mt-3 font-bold">Let's get started!</h2>
 
+<div class="qr-code"></div>
+
 ---
 
 # Install a <span class="gradient-text">VPN</span>
@@ -126,10 +140,12 @@ highlighter: shiki
 | 1. Open Chrome and go to Chrome Web Store           | 1. Go to https://protonvpn.com/download                   | 1. Go to https://protonvpn.com/download                    |
 | 2. Search for "VPN Proxy VeePN"                     | 2. Click "Download ProtonVPN for macOS"                   | 2. Click "Download ProtonVPN for Windows"                  |
 | 3. Click "Add to Chrome"                            | 3. Once downloaded, open the .dmg file                    | 3. Once downloaded, run the installer                      |
-| 4. Click "Add extension" in the popup               | 4. Drag ProtonVPN into the Applications folder            | 4. Follow the installation wizard                          |
+| 4. Click the VeePN icon in Chrome to set up and use | 4. Drag ProtonVPN into the Applications folder            | 4. Follow the installation wizard                          |
 | 5. Click the VeePN icon in Chrome to set up and use | 5. Open ProtonVPN from Applications and set up an account | 5. Open ProtonVPN after installation and set up an account |
 
 <Note>A VPN will help ensure the AI models we are using as well as Bolt works properly (from Hong Kong)</Note>
+
+<div class="qr-code"></div>
 
 ---
 
@@ -140,6 +156,8 @@ highlighter: shiki
 </div>
 
 <Note>A VPN will help ensure the AI models we are using as well as Bolt works properly</Note>
+
+<div class="qr-code"></div>
 
 ---
 
@@ -189,6 +207,7 @@ highlighter: shiki
     </table>
   </div>
 </div>
+<div class="qr-code"></div>
 
 ---
 
@@ -199,6 +218,7 @@ highlighter: shiki
     <h3 v-click>so don't worry if you don't understand everything!</h3>
     <h3 v-click>just focus on having fun and getting hands on with ai-powered coding</h3>
 </div>
+<div class="qr-code"></div>
 
 ---
 
@@ -219,6 +239,7 @@ highlighter: shiki
     <img src="/welcomeSign.jpg" alt="Welcome sign" class="w-full h-auto rounded-lg shadow-lg" />
   </div>
 </div>
+<div class="qr-code"></div>
 
 ---
 
@@ -237,6 +258,8 @@ export default function Home() {
 | `<div>...</div>`                  | This is a container for your content   |
 | `className="..."`                 | This adds styling to make it look nice |
 | `Hello World! We are at HKU now!` | This is the actual text on your page   |
+
+<div class="qr-code"></div>
 
 ---
 
@@ -257,6 +280,7 @@ export default function Home() {
     <li>Used by many <strong>big companies</strong> like Facebook and Instagram</li>
   </ul>
 </div>
+<div class="qr-code"></div>
 
 ---
 
@@ -279,6 +303,8 @@ export default function Home() {
 ```
 
 <Note>HTML is like the skeleton of your website - it gives it structure!</Note>
+
+<div class="qr-code"></div>
 
 ---
 
@@ -304,6 +330,8 @@ export default function Home() {
 ```
 
 <Note>Think of Tailwind as a big box of Lego pieces for styling your website!</Note>
+
+<div class="qr-code"></div>
 
 ---
 
@@ -334,6 +362,8 @@ export default Greeting;
 
 <Note>Think of this as creating an empty box that we'll fill with content!</Note>
 
+<div class="qr-code"></div>
+
 ---
 
 ```jsx
@@ -361,6 +391,8 @@ export default Greeting;
 </div>
 
 <Note>This JSX looks like HTML, but it's actually JavaScript!</Note>
+
+<div class="qr-code"></div>
 
 ---
 
@@ -398,6 +430,8 @@ export default Greeting;
 
 <Note>Tailwind makes styling easy - just add classes to your elements!</Note>
 
+<div class="qr-code"></div>
+
 ---
 
 ```typescript
@@ -407,6 +441,8 @@ export default function Home() {
     );
 }
 ```
+
+<div class="qr-code"></div>
 
 ---
 
@@ -419,6 +455,8 @@ export default function Home() {
 ```
 
 <img src="/steps/padding.png" alt="image showing padding of 5 between the text and the edge of the screen" class="w-full h-auto rounded-xl" />
+
+<div class="qr-code"></div>
 
 ---
 
@@ -433,6 +471,8 @@ npm install @blocknote/react @blocknote/mantine @blocknote/core
 <img src="/steps/npmInstall.png" alt="Terminal output of npm install @blocknote/react @blocknote/mantine @blocknote/core" class="w-full h-auto rounded-lg shadow-md" />
 <Note>This installs the necessary BlockNote packages</Note>
 
+<div class="qr-code"></div>
+
 ---
 
 # Create Editor Component
@@ -446,6 +486,8 @@ Create an empty Editor component inside the components folder. DO not add any pa
 <img src="/steps/console.png" alt="Terminal output of creating Editor component" class="w-full h-auto rounded-lg shadow-md" />
 
 <Note>React components can be reused across different pages</Note>
+
+<div class="qr-code"></div>
 
 ---
 
@@ -517,6 +559,8 @@ export default function Editor() {
 
 <Note>This component will render our Notion-style editor</Note>
 
+<div class="qr-code"></div>
+
 ---
 
 # Update page.tsx
@@ -540,6 +584,8 @@ export default function Home() {
 
 <Note>We use dynamic import to ensure BlockNote only loads on the client-side</Note>
 
+<div class="qr-code"></div>
+
 ---
 
 # Run Your App
@@ -552,6 +598,8 @@ npm run dev
 
 <Note>Congratulations! You've just integrated a complex library into your Next.js app!</Note>
 
+<div class="qr-code"></div>
+
 ---
 
 # Deploy Your App
@@ -559,6 +607,8 @@ npm run dev
 Press the big <span class="gradient-text">Deploy</span> button in the top right corner of the screen.
 
 <img src="/steps/deploy.png" alt="Terminal output of deploying app" class="w-full h-auto rounded-lg shadow-md" />
+
+<div class="qr-code"></div>
 
 ---
 
@@ -569,6 +619,8 @@ Press the big <span class="gradient-text">Deploy</span> button in the top right 
     <h3 v-click>Register a Netlify account to ensure your website stays up after 2 weeks</h3>
 </div>
 
+<div class="qr-code"></div>
+
 ---
 
 <div class="center-xy">
@@ -578,6 +630,8 @@ Press the big <span class="gradient-text">Deploy</span> button in the top right 
     <h3 v-click>Explore hosting your projects with Vercel for seamless deployment</h3>
     <h3 v-click>Keep building, learning, and growing as a builder!</h3>
 </div>
+
+<div class="qr-code"></div>
 
 ---
 

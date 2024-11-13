@@ -1,5 +1,3 @@
-The [Vercel](https://vercel.com) theme for [Slidev](https://github.com/slidevjs/slidev). Based on [Vercel's design system](https://vercel.com/design)
-
 # Contributing
 
 1. `npm install`

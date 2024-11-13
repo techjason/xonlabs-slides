@@ -42,6 +42,7 @@
         "release": "standard-version"
     },
     "dependencies": {
+        "@slidev/theme-default": "^0.25.0",
         "@slidev/types": "^0.28.9",
         "cobe": "^0.6.3",
         "codemirror-theme-vars": "^0.1.1",
