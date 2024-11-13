@@ -3,12 +3,14 @@
         "Anki",
         "codemirror",
         "Cyberport",
+        "factrecall",
         "Incubatee",
         "Inno",
         "Menlo",
         "shiki",
         "slidev",
         "Slido",
+        "speechon",
         "vitepress"
     ]
 }
