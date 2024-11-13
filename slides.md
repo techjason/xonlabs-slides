@@ -19,6 +19,7 @@ highlighter: shiki
      <a href="https://fiscusapp.com" target="_blank">fiscusapp.com</a> (AI-powered receipt management)<br/>
    <br/>
     Third Year Medical Student, LKS Faculty of Medicine, HKU<br />InnoTech HSBC Scholar | Cyberport Incubatee<br /></p>
+    <p class="text-gray-500">p.s press <KBD>j</KBD> to play flappy bird :)</p>
   </div>
   <img src="/avatar.png" alt="Jason Chan" class="w-36 h-36 rounded-full ml-4">
 </div>
@@ -33,127 +34,131 @@ highlighter: shiki
 
 ---
 
-<div class="center-xy">
-  <h1 class="text-8xl text-center ">hello everyone</h1>
-</div>
-<div class="qr-code"></div>
----
+# My Background
 
-<div class="center-xy">
-  <h1 class=" text-8xl text-center">and welcome to my workshop</h1>
-</div>
-<div class="qr-code"></div>
----
+-   **Education:**
 
-<div class="center-xy text-center">
-   <h1>How to Build a <span class="gradient-text">$1 Million AI App</span> With <span class="orange-gradient-text"> <em>No Coding Background</em></span></h1>
-</div>
-<div class="qr-code"></div>
----
+    -   Third-year medical student at HKU
 
-<div class="center-xy text-center">
-   <h1>you are going to learn <span class="gradient-text">a lot of things</span> today</h1>
-</div>
-<div class="qr-code"></div>
----
+    -   Passionate about technology and learning efficiency
 
-<div class="center-xy text-center">
-   <h1>today it is going to be <span class="gradient-text">beginner</span> friendly</h1>
-   <h2>yet we will be pushing the boundaries of what is possible with ai into some advanced concepts</h2>
-</div>
-<div class="qr-code"></div>
----
+-   **Early Interests:**
 
-<div class="w-full h-full flex items-center justify-center">
-  <img src="/cat.gif" alt="Cat having fun" class="w-full h-auto object-cover rounded-xl" />
-</div>
-<div class="qr-code"></div>
+    -   Fascinated by AI and productivity tools
 
----
-
-<div class="justify-center">
-  <h1 class="text-8xl text-right text-red-500">Stop</h1>
-  <h1 class="text-right">Join Menti ↓</h1>
-</div>
-
-<div class="absolute top-0 left-0 ">
-<FlappyBird />
-</div>
-<Counter />
-<div class="qr-code"></div>
-
----
-
-<div class="center-xy">
-  <h1 class="gradient-text text-10xl text-center ">Who Am I?</h1>
-</div>
-<div class="qr-code"></div>
----
-
-<div class="center-xy">
-  <h1 class="text-8xl text-center ">my name is <span class="gradient-text">jason chan</span></h1>
-  <p class="text-center text-gray-500">@thetechjason</p>
-</div>
-<div class="qr-code"></div>
----
-
-<div class="">
-  <img src="/handstand.jpg"  alt="Full screen image" class="w-full h-full object-cover" />
-  21 year old founder based in hk.
-</div>
-<div class="qr-code"></div>
-
----
-
-# What We'll Be Doing Today
-
-| Step | Description                                |
-| ---- | ------------------------------------------ |
-| 1    | Setting up our development environment     |
-| 2    | Using AI to design our web app             |
-| 3    | Implementing the design with AI assistance |
-| 4    | Deploying our app to the internet          |
-
-<h2 class="mt-3 font-bold">Let's get started!</h2>
+    -   Used Anki flashcards throughout high school and med school
 
 <div class="qr-code"></div>
 
 ---
 
-# Install a <span class="gradient-text">VPN</span>
+# Impact and Reach
 
-| For Chrome **(Recommended)**                        | For macOS                                                 | For Windows                                                |
-| --------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------- |
-| 1. Open Chrome and go to Chrome Web Store           | 1. Go to https://protonvpn.com/download                   | 1. Go to https://protonvpn.com/download                    |
-| 2. Search for "VPN Proxy VeePN"                     | 2. Click "Download ProtonVPN for macOS"                   | 2. Click "Download ProtonVPN for Windows"                  |
-| 3. Click "Add to Chrome"                            | 3. Once downloaded, open the .dmg file                    | 3. Once downloaded, run the installer                      |
-| 4. Click the VeePN icon in Chrome to set up and use | 4. Drag ProtonVPN into the Applications folder            | 4. Follow the installation wizard                          |
-| 5. Click the VeePN icon in Chrome to set up and use | 5. Open ProtonVPN from Applications and set up an account | 5. Open ProtonVPN after installation and set up an account |
+-   **User Base:**
 
-<Note>A VPN will help ensure the AI models we are using as well as Bolt works properly (from Hong Kong)</Note>
+    -   Over 180,000 users from 30+ disciplines
 
-<div class="qr-code"></div>
+    -   Students from institutions like Oxford and Cambridge
 
----
+-   **Global Influence:**
 
-<div class="center-xy">
-  <h1 class=" text-center ">Congratulations!</h1>
-    <h3 v-click>You've just built and deployed an AI-generated web app!</h3>
-    <h3 v-click> Your app is now live at Netlify</h3>
-    <h3 v-click>Register a Netlify account to ensure your website stays up after 2 weeks</h3>
-</div>
+    -   Positive feedback from users in conflict zones
+
+    -   Helped users reclaim thousands of study hours
+
+-   **Community Growth:**
+
+    -   Generated over 10 million flashcards
+
+    -   Fostered a collaborative learning environment
 
 <div class="qr-code"></div>
 
 ---
 
-<div class="center-xy">
-  <h1 class="text-center">Next steps</h1>
-    <h3 v-click>Learn to use a dedicated IDE like Cursor for enhanced AI-powered coding</h3>
-    <h3 v-click>Master Git and GitHub for version control and collaboration</h3>
-    <h3 v-click>Explore hosting your projects with Vercel for seamless deployment</h3>
-    <h3 v-click>Keep building, learning, and growing as a builder!</h3>
-</div>
+# Challenges and Lessons Learned
+
+| Category               | Challenges                                                                                        |
+| ---------------------- | ------------------------------------------------------------------------------------------------- |
+| **Technical Hurdles**  | • Rewriting the app from scratch using Next.js<br>• Maintaining product quality with rapid growth |
+| **Business Obstacles** | • Rebranding and marketing efforts<br>• Handling server capacity and user demand                  |
+| **Personal Growth**    | • Balancing school and work<br>• Managing stress and avoiding burnout                             |
+
+<div class="qr-code"></div>
+
+---
+
+1. **Start with a Personal Pain Point**
+
+    - Solve a problem you deeply understand
+
+2. **Iterate Quickly and Embrace Feedback:**
+
+    - Build in public and listen to your users
+
+3. **Be Resilient and Adaptable:**
+
+    - Challenges are opportunities in disguise
+
+<div class="qr-code"></div>
+
+---
+
+**1. Start with Problem/Desire, Not App**
+
+    -   No one cares about your app
+    -   Everyone cares about themselves
+
+**2. Talk About Outcomes, Not Features**
+
+    -   No one wants to do stuff
+    -   Everyone wants to get stuff
+
+**3. Remove Screens Until You Can't Anymore**
+
+    -   Do the steps for the user (if possible)
+    -   So they need to do less (not more)
+
+**4. Don't Add Long Texts. Make UI Better**
+
+    -   Needs long explanation? → Needs rework
+    -   Make it simpler → no explanation needed
+
+<div class="qr-code"></div>
+
+---
+
+**5. Launch MVP in 4 Weeks**
+
+    -   One core action is all you need
+    -   Fast launch → fast results
+
+**6. Educate & Elevate During Onboarding**
+
+    -   Not a time to bore users with features
+    -   Teach them, you're the expert
+
+**7. Show Paywall After Onboarding**
+
+    -   60% of subscribers do so during onboarding
+    -   Others got rich this way, you'll too
+
+**8. Stop Adding Features. Make UX Better**
+
+    -   Best apps? They're easy to use
+    -   More features isn't always better
+
+---
+
+**9. First 3 Months: Find & Solve Bottlenecks**
+
+    -   Go top to bottom (App Store → app)
+    -   Lift conversion rate of every step
+
+**10. 1%+ Subscribe? Now Bring More Users**
+
+    -   You validated your app idea
+    -   Now it's time to pour more water in
 
 <div class="qr-code"></div>
 
