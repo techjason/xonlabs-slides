@@ -10,3 +10,4 @@ node_modules/
 # miscellaneous
 .DS_Store
 *.local
+.vercel
