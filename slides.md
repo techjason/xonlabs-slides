@@ -52,6 +52,101 @@ highlighter: shiki
 
 ---
 
+<div class="w-full h-full">
+  <img src="/handstand.jpg"  alt="handstand" class="h-full w-full object-cover" />
+</div>
+<div class="qr-code"></div>
+
+---
+
+<div class="w-full h-full">
+  <img src="/teaching.png"  alt="teaching" class="h-full w-full object-cover" />
+</div>
+<div class="qr-code"></div>
+
+---
+
+<div class="w-full h-full">
+  <img src="/conference.jpeg"  alt="conference" class="h-full w-full object-cover" />
+</div>
+<div class="qr-code"></div>
+
+---
+
+<div class="h-full grid grid-cols-2 gap-4 p-4">
+  <div class="h-[450px] flex items-center justify-center">
+    <img src="/gym.jpg" alt="gym" class="max-h-full w-auto" />
+  </div>
+  <div class="h-[450px] flex items-center justify-center">
+    <img src="/run.jpeg" alt="run" class="max-h-full w-auto" />
+  </div>
+</div>
+<div class="qr-code"></div>
+
+---
+
+<div class="w-full h-full">
+  <img src="/scholar.jpeg"  alt="scholar" class="h-full w-full object-cover" />
+</div>
+<div class="qr-code"></div>
+
+---
+
+<div class="w-full h-full flex items-center justify-center">
+  <img src="/factrecallv2.png"  alt="factrecall" class="h-[450px] object-cover mx-auto my-auto" />
+</div>
+<div class="qr-code"></div>
+
+---
+
+<div class="w-full h-full flex items-center justify-center">
+  <img src="/memo-hero.png"  alt="Version 1" class="h-[450px] object-cover mx-auto my-auto" />
+</div>
+<div class="qr-code"></div>
+
+---
+
+<div class="w-full h-full flex items-center justify-center">
+  <iframe
+    src="https://www.instagram.com/reel/DA-ZyTRiaAw/embed/"
+    class="w-[500px] h-[600px]"
+    frameborder="0"
+    scrolling="no"
+    allowtransparency="true"
+  ></iframe>
+</div>
+
+<div class="qr-code"></div>
+
+---
+
+<div class="w-[400px] h-[500px] flex items-center justify-center mx-auto">
+  <iframe
+    src="https://www.youtube.com/embed/Xr7d7LzqcTc"
+    class="w-full h-full"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
+</div>
+
+<div class="qr-code"></div>
+
+---
+
+<div class="w-full h-full">
+  <img src="/speechon.png"  alt="Version 1" class="h-full w-full object-cover" />
+</div>
+<div class="qr-code"></div>
+
+---
+
+<div class="w-full h-full">
+  <img src="/v1.jpeg"  alt="Version 1" class="h-full w-full object-cover" />
+</div>
+<div class="qr-code"></div>
+
+---
+
 # Impact and Reach
 
 -   **User Base:**
@@ -88,77 +183,131 @@ highlighter: shiki
 
 ---
 
-1. **Start with a Personal Pain Point**
+<div v-click>
+<h3>1. Start with a Personal Pain Point</h3>
 
     - Solve a problem you deeply understand
 
-2. **Iterate Quickly and Embrace Feedback:**
+</div>
+
+<div v-click>
+<h3>2. Iterate Quickly and Embrace Feedback</h3>
 
     - Build in public and listen to your users
 
-3. **Be Resilient and Adaptable:**
+</div>
+
+<div v-click>
+<h3>3. Be Resilient and Adaptable</h3>
 
     - Challenges are opportunities in disguise
 
+</div>
 <div class="qr-code"></div>
 
 ---
 
-**1. Start with Problem/Desire, Not App**
+<div v-click>
+<h3>4. AGAIN! Start with Problem/Desire, Not App</h3>
 
     -   No one cares about your app
     -   Everyone cares about themselves
 
-**2. Talk About Outcomes, Not Features**
+</div>
+
+<div v-click>
+<h3>5. Talk About Outcomes, Not Features</h3>
 
     -   No one wants to do stuff
     -   Everyone wants to get stuff
 
-**3. Remove Screens Until You Can't Anymore**
+</div>
+
+<div v-click>
+<h3>6. Remove Screens Until You Can't Anymore</h3>
 
     -   Do the steps for the user (if possible)
     -   So they need to do less (not more)
 
-**4. Don't Add Long Texts. Make UI Better**
+</div>
+
+---
+
+<div v-click>
+<h3>7. Don't Add Long Texts. Make UI Better</h3>
 
     -   Needs long explanation? → Needs rework
     -   Make it simpler → no explanation needed
+
+</div>
+
+<div class="qr-code"></div>
+
+<div v-click>
+<h3>8. Launch MVP in 4 Weeks</h3>
+
+    -   One core action is all you need
+    -   Fast launch → fast results
+
+</div>
+
+<div v-click>
+<h3>9. Educate & Elevate During Onboarding</h3>
+
+    -   Not a time to bore users with features
+    -   Teach them, you're the expert
+
+</div>
+
+---
+
+<div v-click>
+<h3>10. Show Paywall After Onboarding</h3>
+
+    -   60% of subscribers do so during onboarding
+    -   Others got rich this way, you'll too
+
+</div>
+
+<div v-click>
+<h3>11. Stop Adding Features. Make UX Better</h3>
+
+    -   Best apps? They're easy to use
+    -   More features isn't always better
+
+</div>
+
+<div v-click>
+<h3>12. First 3 Months: Find & Solve Bottlenecks</h3>
+
+    -   Go top to bottom (App Store → app)
+    -   Lift conversion rate of every step
+
+</div>
+
+---
+
+<div v-click>
+<h3>13. 1%+ Subscribe? Now Bring More Users</h3>
+
+    -   You validated your app idea
+    -   Now it's time to pour more water in
+
+</div>
 
 <div class="qr-code"></div>
 
 ---
 
-**5. Launch MVP in 4 Weeks**
+# Growth Formula
 
-    -   One core action is all you need
-    -   Fast launch → fast results
-
-**6. Educate & Elevate During Onboarding**
-
-    -   Not a time to bore users with features
-    -   Teach them, you're the expert
-
-**7. Show Paywall After Onboarding**
-
-    -   60% of subscribers do so during onboarding
-    -   Others got rich this way, you'll too
-
-**8. Stop Adding Features. Make UX Better**
-
-    -   Best apps? They're easy to use
-    -   More features isn't always better
-
----
-
-**9. First 3 Months: Find & Solve Bottlenecks**
-
-    -   Go top to bottom (App Store → app)
-    -   Lift conversion rate of every step
-
-**10. 1%+ Subscribe? Now Bring More Users**
-
-    -   You validated your app idea
-    -   Now it's time to pour more water in
+<div class="flex flex-col gap-4">
+    <h4 v-click>Good app + killer marketing = Great growth</h4>
+    <h4 v-click>Mid app + killer marketing = Great growth</h4>
+    <h4 v-click>Bad app + killer marketing = Bad growth</h4>
+    <h4 v-click>Good app + bad marketing = Existential crisis</h4>
+    <h4 v-click>Bad app + bad marketing = Hell mode, depression, anxiety, PTSD</h4>
+</div>
 
 <div class="qr-code"></div>
 
@@ -168,7 +317,7 @@ highlighter: shiki
 
 <div class="relative z-10 mt-32">
   <p class="font-bold">Jason Chan</p>
-  <p>If you're interested in building for apps like this, we are currently hiring for full time, part time and internships at <a href="https://www.memo.cards">memo.cards</a>. More info at <a href="https://www.thelearningcompany.com/careers">thelearningcompany.com/careers</a></p>
+  <p>If you're interested in building for apps like this, we are currently hiring for full time, part time and internships at <a href="https://www.memo.cards">memo.cards</a>. More info at <a href="https://xon.so/careers">xon.so/careers</a></p>
   <p>I'm at most of the socials with: @thetechjason</p>
   <p><a href="https://techjason.com">techjason.com</a></p>
 </div>
